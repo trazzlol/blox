@@ -5,7 +5,7 @@
 local VibeUI = ...
 
 local Config = {
-    Title = "BloxxerHub - V2.1.8",
+    Title = "BloxxerHub - V2.1.9",
 
     -- News Ticker Settings
     Ticker = {
