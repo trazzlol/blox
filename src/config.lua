@@ -2,10 +2,16 @@
     Hub Config
 ]]
 
-local VibeUI = ...
+local BloxUI = ...
 
 local Config = {
     Title = "BloxxerHub - V2.2.2",
+
+    UI = {
+        LibraryUrl = "https://raw.githubusercontent.com/TristyMP4/BloxLib/refs/heads/main/BloxUI.luau",
+        FeatureSearch = true,
+        SettingsPosition = "Top", -- built-in settings: "Top" or "Bottom"
+    },
 
     -- News Ticker Settings
     Ticker = {
@@ -25,8 +31,8 @@ local Config = {
     }
 }
 
-if VibeUI and Config.Ticker and Config.Ticker.Enabled and #Config.Ticker.Messages > 0 then
-    Config.Instance = VibeUI:Ticker(Config.Ticker)
+if BloxUI and Config.Ticker and Config.Ticker.Enabled and #Config.Ticker.Messages > 0 then
+    Config.Instance = BloxUI:Ticker(Config.Ticker)
 end
 
 return Config
