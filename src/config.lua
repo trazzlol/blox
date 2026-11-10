@@ -6,6 +6,7 @@ local BloxUI = ...
 
 local Config = {
     Title = "BloxxerHub - V2.2.5",
+    Logo = "138817205220585",
 
     UI = {
         LibraryUrl = "https://raw.githubusercontent.com/TristyMP4/BloxLib/refs/heads/main/BloxUI.luau",
