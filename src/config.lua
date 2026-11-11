@@ -5,8 +5,8 @@
 local BloxUI = ...
 
 local Config = {
-    Title = "BloxxerHub - V2.2.5",
-    Logo = "105962959188216",
+    Title = "BloxxerHub • V2.2.6",
+    Logo = "138817205220585",
 
     UI = {
         LibraryUrl = "https://raw.githubusercontent.com/TristyMP4/BloxLib/refs/heads/main/BloxUI.luau",
@@ -25,7 +25,7 @@ local Config = {
         Separator = "   |   ",             -- Separator between messages
         Messages = {
             "Welcome to BloxxerHub!",
-            "Update 2.2.2: Join the discord for changelog!",
+            "Update 2.2.6: Join the discord for changelog!",
             "More planned soon!",
             "have fun!",
         }
