@@ -5,7 +5,7 @@
 local BloxUI = ...
 
 local Config = {
-    Title = "BloxxerHub • V2.2.6",
+    Title = "BloxxerHub • V2.2.8",
     Logo = "138817205220585",
 
     UI = {
